@@ -1,13 +1,13 @@
 part of 'color_bloc.dart';
 
 class ColorState {
-  var colorValue;
+  Color colorValue;
 
   ColorState({
     required this.colorValue,
   });
 
-  ColorState copyWith(var colorValue) {
+  ColorState copyWith(Color colorValue) {
     return ColorState(colorValue: colorValue);
   }
 }
